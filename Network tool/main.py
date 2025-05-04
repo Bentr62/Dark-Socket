@@ -13,7 +13,6 @@ if sys.platform.startswith("win"):
 else:
     os.system("clear")
 
-
 popup_version = "Dark'Socket v1.0"
 Discord = "Bentr_62."
 menu_number = 1
@@ -70,8 +69,8 @@ options ={
 choice = input(f"""{Style.BRIGHT+ Fore.LIGHTMAGENTA_EX}
                                                             ==Dark'Socket tools==
 
-                                                            Option 1 : Ddos Tool
-                                                            Option 2 : Ip Lookup 
+                                                            Option 1 : Ddos(En cours de dev..)
+                                                            Option 2 : Lookup ip (Pratiquement finit)
                                                             Choississez une option (or Press q to quit) : """)
 if choice in options:
     print(Style.RESET_ALL)
